@@ -10,20 +10,20 @@
     <header>
         <nav>
             <ul class="navegacion">
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact me</li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="./contact-me.html">Contact me</a></li>
             </ul>
         </nav>
-        <div  class="banner-main">
-            <!-- Poner imagen de un portafolio con css-->
-             <div class="banner"></div>
+        <div  class="banner-main" id="banner-main">
+            <!-- Poner imagen de un portafolio con css-->   
+            <img src="./images/portafolio3.jpg">         
             <h1>Javier Tapia Ochoa</h1>
         </div>
     </header>
     
     <main>
-        <section class="about-me">
+        <section class="about-me" id="about-me">
             <div class="about-me-left">
             <h2>About me</h2>
                 <p>I am an engineer who lives in Bolivia, I was born in Oruro a city in Bolivia which is locate up in the mountains.</p>
@@ -37,12 +37,12 @@
                 <p> I joined codeacademy in 2024 to learn about html, css, javascript and other important software to create a new system for my company.</p>
             </div>
 
-            <div class="about-me-right">
-                <img src="./images/javi.png" id="foto">
+            <div class="about-me-right" id="foto">
+                <img src="./images/javi.png">
             </div>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="projects">
             <h2>Projects Developed</h2>
             <ul class="project-list">
                 <li>Calculating Price</li>
@@ -60,6 +60,8 @@
             <h2>Contact Me</h2>
         </section>
     </main>
+
+    <script  src="main.js"></script>
     
 </body>
 </html>
